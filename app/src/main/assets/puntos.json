@@ -1,0 +1,30 @@
+[
+  {
+
+    "name": "FIORDO DE GEIRANGER",
+    "description": "El fiordo de Geiranger o Geirangerfjord es un fiordo del distrito de Sunnmøre, en la provincia de Møre og Romsdal, Noruega",
+    "puntuacion": "4.8",
+    "urlImage": "https://res.cloudinary.com/dyw21gzrq/image/upload/v1638324828/imagen1_cljmhk.jpg"
+  },
+  {
+
+    "name": "PREIKESTOLEN",
+    "description":"Es una formación rocosa en la costa sudoeste de Noruega, cuyo nombre significa «púlpito».",
+    "puntuacion":"4.7",
+    "urlImage": "https://res.cloudinary.com/dyw21gzrq/image/upload/v1638323411/imagen2_nd91h7.jpg"
+  },
+  {
+
+    "name": "TROLLTUNGA",
+    "description":"Trolltunga es un pedazo de roca que cuelga horizontalmente de una montaña en Noruega, a unos 700 metros sobre el lado norte del lago Ringedalsvatnet, en el municipio de Odda, en el condado de Hordaland, Noruega.",
+    "puntuacion":"4.8",
+    "urlImage": "https://res.cloudinary.com/dyw21gzrq/image/upload/v1638323411/imagen3_j5k51o.jpg"
+  },
+  {
+
+    "name": "MUSEO BARCOS VIKINGOS ",
+    "description":"El Museo de Barcos Vikingos está localizado en el barrio de Bygdøy en Oslo, Noruega.",
+    "puntuacion":"4.4",
+    "urlImage": "https://res.cloudinary.com/dyw21gzrq/image/upload/v1638323411/imagen4_ynqjeo.jpg"
+  }
+]
