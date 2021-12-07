@@ -14,8 +14,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         tools:listitem="@layout/item_puntosinteres" />
 
-
-
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/main_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/main_nav"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="129dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
