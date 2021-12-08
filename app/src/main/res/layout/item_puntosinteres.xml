@@ -22,7 +22,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="167dp">
 
             <ImageView
                 android:id="@+id/ivPuntoInt"
@@ -31,19 +31,19 @@
                 android:layout_marginLeft="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tvName"
-                android:textSize="18dp"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="5dp"
-                android:layout_marginTop="8dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/ivPuntoInt"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tvDescription"
