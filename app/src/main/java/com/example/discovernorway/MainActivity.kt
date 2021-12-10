@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadMockPoisfromJson(): ArrayList<PointsInt> {
         val poisString: String =
-            applicationContext.assets.open("puntos.json").bufferedReader().use { it.readText() }
+            applicationContext.assets.open("db.json").bufferedReader().use { it.readText() }
         val gson = Gson()
         return gson.fromJson(poisString, Poi::class.java)
 
