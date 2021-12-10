@@ -50,6 +50,9 @@ class PointsAdapter (private val pointsint: ArrayList<PointsInt>,private val mco
                 intent.putExtra("rv1",poi.description)
                 intent.putExtra("rv2",poi.puntuacion)
                 intent.putExtra("rv3",poi.urlImage)
+                intent.putExtra("rv4",poi.ubicacion)
+                intent.putExtra("rv5",poi.temperatura)
+                intent.putExtra("rv6",poi.sitios)
                 mcontext.startActivity(intent)
             }
 

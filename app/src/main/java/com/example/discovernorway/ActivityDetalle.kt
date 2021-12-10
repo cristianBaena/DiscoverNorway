@@ -27,6 +27,20 @@ class ActivityDetalle : AppCompatActivity() {
         val namedetallepoitextview3=findViewById<ImageView>(R.id.Detalles3)
         Picasso.get().load(namedetallepoi3).into(namedetallepoitextview3)
 
+        val namedetallepoi4 = intent.getStringExtra("rv4")
+        val namedetallepoitextview4=findViewById<TextView>(R.id.Detalles4)
+        namedetallepoitextview4.text=namedetallepoi4
+
+        val namedetallepoi5 = intent.getStringExtra("rv5")
+        val namedetallepoitextview5=findViewById<TextView>(R.id.Detalles5)
+        namedetallepoitextview5.text=namedetallepoi5
+
+        val namedetallepoi6 = intent.getStringExtra("rv6")
+        val namedetallepoitextview6=findViewById<TextView>(R.id.Detalles6)
+        namedetallepoitextview6.text=namedetallepoi6
+
+
+
 
 
     }

@@ -10,6 +10,12 @@ data class PointsInt(
      @SerializedName("puntuacion")
      val puntuacion: Double,
      @SerializedName("urlImage")
-     val urlImage: String
+     val urlImage: String,
+     @SerializedName("ubicacion")
+     val ubicacion: String,
+     @SerializedName("temperatura")
+     val temperatura: String,
+     @SerializedName("sitios")
+     val sitios: String
 
 )
