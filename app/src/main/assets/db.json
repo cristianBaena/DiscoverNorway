@@ -1,9 +1,9 @@
 [
   {
 
-    "name": "FIORDO DE GEIRANGER",
-    "description": "El fiordo de Geiranger o Geirangerfjord es un fiordo del distrito de Sunnmøre, en la provincia de Møre og Romsdal, Noruega",
-    "puntuacion": "4.8",
+    "name": "FIORDO GEIRANGER",
+    "description": "El fiordo de Geiranger o Geirangerfjord es uno de los lugares más turísticos del país,situado en el final del fiordo, recibe más de 600 000 turistas cada año,y unos 150 barcos de pasajeros que realizan excursiones a través del mismo.",
+    "puntuacion": 4.8,
     "urlImage": "https://res.cloudinary.com/dyw21gzrq/image/upload/v1638324828/imagen1_cljmhk.jpg",
     "ubicacion": "UBICACION: Se encuentra dentro del municipio de Stranda, en la provincia de Møre og Romsdal, Noruega.",
     "temperatura": "TEMPERATURA: Aunque las temperaturas a finales de mayo suelen ser de dos dígitos durante el día, en la noche las temperaturas pueden bajar radicalmente. Las temperaturas en verano pueden alcanzar los 25 o 30 grados centígrados. ",
@@ -12,8 +12,8 @@
   {
 
     "name": "PREIKESTOLEN",
-    "description":"Es una formación rocosa en la costa sudoeste de Noruega, cuyo nombre significa «púlpito».",
-    "puntuacion":"4.7",
+    "description":"Es una formación rocosa en la costa sudoeste de Noruega, cuyo nombre significa «púlpito»Esta formación rocosa es el lugar donde se rodó la escena de la persecución en helicóptero de la película Mission: Impossible - Fallout.",
+    "puntuacion":4.7,
     "urlImage": "https://res.cloudinary.com/dyw21gzrq/image/upload/v1638323411/imagen2_nd91h7.jpg",
     "ubicacion": "UBICACION: Está situada en el Lysefjord, en el distrito de Ryfylke, provincia de Rogaland.",
     "temperatura": "TEMPERATURA: La temperatura maxima promedio que se puede presentar es de 18 grados Celsius y la minima es de 4 grados Celsius, aunque se han registrado en pocas ocasiones temperaturas de 0 grados ",
@@ -22,8 +22,8 @@
   {
 
     "name": "TROLLTUNGA",
-    "description":"Trolltunga es un pedazo de roca que cuelga horizontalmente de una montaña en Noruega, a unos 700 metros sobre el lado norte del lago Ringedalsvatnet, en el municipio de Odda, en el condado de Hordaland, Noruega.",
-    "puntuacion":"4.8",
+    "description":"Trolltunga es un pedazo de roca que cuelga horizontalmente de una montaña,El aumento de la popularidad la ha convertido en un icono nacional y en una importante atracción turística para la región.",
+    "puntuacion":4.8,
     "urlImage": "https://res.cloudinary.com/dyw21gzrq/image/upload/v1638323411/imagen3_j5k51o.jpg",
     "ubicacion": "UBICACION: Se encuentra a unos 700 metros sobre el lado norte del lago Ringedalsvatnet, en el municipio de Odda, en el condado de Hordaland, Noruega.",
     "temperatura": "TEMPERATURA: Aunque las temperaturas a finales de mayo suelen ser de dos dígitos durante el día, en la noche las temperaturas pueden bajar radicalmente. Las temperaturas en verano pueden alcanzar los 25 o 30 grados centígrados. ",
@@ -31,9 +31,9 @@
   },
   {
 
-    "name": "MUSEO BARCOS VIKINGOS ",
-    "description":"El Museo de Barcos Vikingos está localizado en el barrio de Bygdøy en Oslo, Noruega.",
-    "puntuacion":"4.4",
+    "name": "MUSEO VIKINGOS",
+    "description":"El Museo de Barcos Vikingos está localizado en el barrio de Bygdøy en Oslo, Noruega,el Museo de los Barcos Vikingos es el lugar donde los restos arqueológicos de Tune, Gokstad, Oseberg y el túmulo funerario de Borre se muestran al mundo.",
+    "puntuacion":4.4,
     "urlImage": "https://res.cloudinary.com/dyw21gzrq/image/upload/v1638323411/imagen4_ynqjeo.jpg",
     "ubicacion": "UBICACION: está localizado en el barrio de Bygdøy en Oslo, Noruega. Forma parte del Museo Cultural Histórico de la Universidad de Oslo.",
     "temperatura": "TEMPERATURA: en la ciudad de Bygdøy la temperatura puede varias entre los -4 hasta los 16 grados Celsius dependiendo de la epoca del año ",
