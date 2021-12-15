@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="CONFIGURACION">
+
+        <SwitchPreferenceCompat
+            app:key="notifications"
+            app:title="Notificaciones"
+            app:defaultValue="false"
+            app:summaryOn="Notificaciones activas"
+            app:summaryOff="No recibirás notificaciones"
+            />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="NOTIFICACIONES">
+
+        <SwitchPreferenceCompat
+            app:key="sounds"
+            app:title="Sonidos"
+            app:defaultValue="false"
+            app:summaryOff="Sonido desactivado"
+            app:summaryOn="Sonido activado" />
+
+        <SeekBarPreference
+            app:key="volumen"
+            app:dependency="sounds"
+            app:title="Volumen"
+            app:showSeekBarValue="true"
+            app:defaultValue="50" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
