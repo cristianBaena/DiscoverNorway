@@ -14,9 +14,13 @@
         <entry key="..\:/Users/cristian baena/AndroidStudioProjects/DiscoverNorway/app/src/main/res/menu-ldltr/main_menu.xml" value="0.17335526315789473" />
         <entry key="..\:/Users/cristian baena/AndroidStudioProjects/DiscoverNorway/app/src/main/res/xml/preferences.xml" value="0.17335526315789473" />
         <entry key="..\:/Users/cristian baena/AndroidStudioProjects/DiscoverNorway/app/src/main/res/xml/root_preferences.xml" value="0.17335526315789473" />
-        <entry key="app/src/main/res/layout/activity_detalle.xml" value="0.19583333333333333" />
+        <entry key="app/src/main/res/layout/activity_detalle.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18614130434782608" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.33697916666666666" />
         <entry key="app/src/main/res/layout/item_puntosinteres.xml" value="0.18614130434782608" />
+        <entry key="app/src/main/res/layout/map_detail.xml" value="0.35208333333333336" />
+        <entry key="app/src/main/res/menu-ldltr/main_menu.xml" value="0.35208333333333336" />
+        <entry key="app/src/main/res/menu-ldltr/map_options.xml" value="0.35208333333333336" />
         <entry key="app/src/main/res/xml/root_preferences.xml" value="0.171225937183384" />
       </map>
     </option>

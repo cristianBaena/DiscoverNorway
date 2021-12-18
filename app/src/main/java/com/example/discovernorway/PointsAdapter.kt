@@ -53,6 +53,8 @@ class PointsAdapter (private val pointsint: ArrayList<PointsInt>,private val mco
                 intent.putExtra("rv4",poi.ubicacion)
                 intent.putExtra("rv5",poi.temperatura)
                 intent.putExtra("rv6",poi.sitios)
+                intent.putExtra("rv7", poi.latitud)
+                intent.putExtra("rv8", poi.longitud)
                 mcontext.startActivity(intent)
             }
 

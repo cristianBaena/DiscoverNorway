@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DiscoverNorway</string>
+    <string name="app_name">Discover Norway</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
     <!-- Preference Titles -->
@@ -18,4 +18,16 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="nav_btn">Maps button</string>
+
+    <!-- MAPS -->
+
+    <string name="normal_map">Mapa Normal</string>
+    <string name="hybrid_map">Mapa Híbrido</string>
+    <string name="satellite_map">Mapa Satelital</string>
+    <string name="terrain_map">Mapa Terreno</string>
+
+
 </resources>

@@ -3,6 +3,7 @@
     <PreferenceCategory app:title="CONFIGURACION">
 
         <SwitchPreferenceCompat
+            app:icon="@drawable/ic_round_notifications_active_24"
             app:key="notifications"
             app:title="Notificaciones"
             app:defaultValue="false"
@@ -17,12 +18,14 @@
 
         <SwitchPreferenceCompat
             app:key="sounds"
+            app:dependency="notifications"
             app:title="Sonidos"
             app:defaultValue="false"
             app:summaryOff="Sonido desactivado"
             app:summaryOn="Sonido activado" />
 
         <SeekBarPreference
+            app:icon="@drawable/ic_round_volume_up_24"
             app:key="volumen"
             app:dependency="sounds"
             app:title="Volumen"
