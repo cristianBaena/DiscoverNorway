@@ -1,15 +1,30 @@
 package com.example.discovernorway
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.squareup.picasso.Picasso
+
 
 class ActivityDetalle : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detalle)
+
+
+
+        val btnMap = findViewById<FloatingActionButton>(R.id.btnMap)
+        btnMap.setOnClickListener {
+            val intent = Intent(this, MapsActivity::class.java)
+            val latitud = intent.getDoubleExtra("rv7", 0.0)
+            val longitud = intent.getDoubleExtra("rv8", 0.0)
+            intent.putExtra("rv7", latitud)
+            intent.putExtra("rv8", longitud)
+            startActivity(intent)
+        }
 
         val namedetallepoi= this.intent.getStringExtra("rv")
         val namedetallepoitexview=findViewById<TextView>(R.id.Detalles)

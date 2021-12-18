@@ -16,6 +16,10 @@ data class PointsInt(
      @SerializedName("temperatura")
      val temperatura: String,
      @SerializedName("sitios")
-     val sitios: String
+     val sitios: String,
+     @SerializedName("latitud")
+     val latitud: Double,
+     @SerializedName("longitud")
+     val longitud: Double,
 
 )
