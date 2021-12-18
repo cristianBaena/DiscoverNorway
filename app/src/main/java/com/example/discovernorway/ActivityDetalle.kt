@@ -14,18 +14,6 @@ class ActivityDetalle : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detalle)
 
-
-
-        val btnMap = findViewById<FloatingActionButton>(R.id.btnMap)
-        btnMap.setOnClickListener {
-            val intent = Intent(this, MapsActivity::class.java)
-            val latitud = intent.getDoubleExtra("rv7", 0.0)
-            val longitud = intent.getDoubleExtra("rv8", 0.0)
-            intent.putExtra("rv7", latitud)
-            intent.putExtra("rv8", longitud)
-            startActivity(intent)
-        }
-
         val namedetallepoi= this.intent.getStringExtra("rv")
         val namedetallepoitexview=findViewById<TextView>(R.id.Detalles)
         namedetallepoitexview.text=namedetallepoi
@@ -54,7 +42,15 @@ class ActivityDetalle : AppCompatActivity() {
         val namedetallepoitextview6=findViewById<TextView>(R.id.Detalles6)
         namedetallepoitextview6.text=namedetallepoi6
 
-
+        val btnMap = findViewById<FloatingActionButton>(R.id.btnMap)
+        val latitud = intent.getDoubleExtra("rv7", 0.0)
+        val longitud = intent.getDoubleExtra("rv8", 0.0)
+        btnMap.setOnClickListener {
+            val intent = Intent(this, MapsActivity::class.java)
+            intent.putExtra("rv7", latitud)
+            intent.putExtra("rv8", longitud)
+            startActivity(intent)
+        }
 
 
 
