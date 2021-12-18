@@ -19,7 +19,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var binding: ActivityMapsBinding
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -65,11 +64,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-        val latitud: Double = intent.getDoubleExtra("rv7", 62.0)
-        val longitud: Double = intent.getDoubleExtra("rv8", 7.0)
+        val latitud: Double = intent.getDoubleExtra("rv7", 0.0)
+        val longitud: Double = intent.getDoubleExtra("rv8", 0.0)
+
         // Add a marker in Sydney and move the camera
         val location = LatLng(latitud, longitud)
-        val zoomLevel = 10f
+        val zoomLevel = 13f
         mMap.addMarker(MarkerOptions().position(location).title("Point of interest"))
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, zoomLevel))
     }
